@@ -7,4 +7,4 @@ p1.style.color = "blue";
 corpo.style.background = "yellow";
 
 var d = window.document.querySelector("div#msg");
-d.style.background = "red";
+d.style.background = "red ";
