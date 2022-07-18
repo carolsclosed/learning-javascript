@@ -5,11 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="ex013.css">
+    <title>age checker</title>
 </head>
 
 <body>
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of birth:</p>
+            <input type="number" name="txtyear" id="txtyear" min="0"> <br>
+            <p>Gender:</p>
+            <input type="radio" name="radgender" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radgender" id="fem">
+            <label for="fem">Feminino</label> <br>
+            <p>
+                <input type="button" value="verify" onclick="verify()">
+            </p>
+        </div>
+        <div id="res">
+            Fill in the data above to see the results.
+        </div>
 
+
+
+
+    </section>
+
+
+
+
+
+    <script type="text/javascript" src="ex013.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(198, 253, 246);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(2, 47, 83, 0.534);
+}
+
+div {
+  text-align: left;
+  border: solid 3px rgba(15, 142, 247, 0.534);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(182, 230, 252);
+}
+
+div#res {
+  margin-top: 20px;
+}
+
+p {
+  display: inline-flex;
+}
+
+input#textyear {
+  width: 80px;
+}
