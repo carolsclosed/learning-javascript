@@ -1,6 +1,6 @@
 var c = 1;
-while (c <= 6) {
-  console.log("all fine");
+while (c <= 3) {
+  console.log(`step ${c}`);
   c++; // c = c+1
 }
 
